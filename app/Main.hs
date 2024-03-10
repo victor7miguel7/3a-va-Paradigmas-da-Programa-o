@@ -30,7 +30,7 @@ atualizaQuantidadeProduto (clientes, estoque, vendas) nomeProduto novaQuantidade
                            then P nome preco (qtd - novaQuantidade)
                            else P nome preco qtd) estoque
   in (clientes, novoEstoque, vendas)
-
+--
 -- insere uma nova venda, apenas se o cliente e o produto existem.
 -- Atualiza no estoque a quantidade disponível que resta do produto.
 -- Se o estoque não tem quantidade suficiente, não realiza a venda.
